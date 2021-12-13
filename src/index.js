@@ -9,7 +9,7 @@ const SignupForm = () => {
       initialValues={{ firstName: "", lastName: "", email: "" }}
       validationSchema={Yup.object({
         firstName: Yup.string()
-          .max(15, "11111111111111111111111")
+          .max(15, "main main main main")
           .required("Required"),
         lastName: Yup.string()
           .max(20, "Must be 20 chaasdasdasdasdracters or asdasdasdas")
